@@ -1,6 +1,6 @@
 # load data 
 beliefs_data <- read.csv("C:/Arya/UvA/Internship/BELIEFS DATA/BELIEFS DATA.csv", header = TRUE)
-
+ 
 # remove irrelevant data 
 dataclean <- beliefs_data[c(-1,-2),-c(1:5,7:17)]
 # initial n = 156
